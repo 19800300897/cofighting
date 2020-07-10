@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.thlxgskccx.dao.UserDao">
+    <select id="getAllUser" resultType="com.thlxgskccx.model.User">
+        SELECT * FROM tb_user;
+    </select>
+    <insert id="addTrack" parameterType="com.thlxgskccx.model.UserTrack">
+        insert into tb_usertrack (userphone,name,position,enaw,enawTime,information)
+        values (#{userphone},#{name},#{position},#{enaw},now(),#{information});
+    </insert>
+    <select id="getAllUserTrack" resultType="com.thlxgskccx.model.UserTrack">
+        SELECT * FROM tb_usertrack where userphone = #{userphone};
+    </select>
+    <select id="getAllPatient" resultType="com.thlxgskccx.model.PatientInfo">
+        SELECT * FROM tb_patientinfo;
+    </select>
+<!--添加附近的病例信息-->
+    <insert id="addpatient" parameterType="com.thlxgskccx.model.Patient"
+            useGeneratedKeys="true" keyProperty="id">
+        INSERT IGNORE INTO tb_patientinfo (society,latitude,longitude,confirmdate,address)
+        SELECT #{society},#{latitude},#{longitude},#{confirmdate},#{address}
+        FROM DUAL WHERE
+        NOT EXISTS(SELECT * FROM tb_patientinfo WHERE society = #{society} AND confirmdate = #{confirmdate})
+    </insert>
+
+</mapper>

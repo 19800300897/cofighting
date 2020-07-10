@@ -1,0 +1,1442 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .container{
+        max-width: 1170px;
+    }
+
+    
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .header-logo a {
+        margin: 24px 0;
+    }
+
+    .main-menu ul li{
+        padding: 24px 8px;
+    }
+
+    .cta-btn .call-button {
+        padding: 15px 30px;
+    }
+
+    .small-virus-shape.small-shape-1 img {
+        width: 70px;
+        top: -70px;
+        left: 0;
+    }
+
+    .small-virus-shape.small-shape-2 img {
+        width: 60px;
+    }
+
+    .small-virus-shape.small-shape-3 img {
+        bottom: -127px;
+        width: 60px;
+        left: 0;
+    }
+
+    .small-virus-shape.small-shape-4 img {
+        width: 70px;
+        right: 0;
+    }
+
+    .small-virus-shape.small-shape-5 img {
+        width: 60px;
+        right: 0;
+    }
+
+    .about-demo-home {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .about-meta-text {
+        padding: 0px;
+    }
+
+    .about-meta-text .section-title {
+        max-width: 100%;
+    }
+
+    .spread-shape.spread-shape-1 img {
+        top: 0;
+        left: 0;
+        width: 160px;
+    }
+
+    .spread-shape.spread-shape-2 img {
+        bottom: 0;
+        right: 0;
+        width: 170px;
+    }
+
+    .spread-content .spread-content-title {
+        font-size: 27px;
+    }
+
+    .current-cases-shape.current-cases-shape-1 img {
+        top: 0;
+        left: 0;
+        width: 160px;
+    }
+
+    .cases-lists li a.active {
+        border: 1px solid #7d52cc;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .cases-lists li  {
+        width: 24%;
+    }
+
+    .symptoms-virus-shape.symptoms-virus-shape-1 img {
+        width: 170px;
+        left: 0;
+    }
+
+    .symptoms-virus-shape.symptoms-virus-shape-2 img {
+        top: 0;
+        width: 170px;
+        right: 0;
+    }
+
+    .symptoms-virus-shape.symptoms-virus-shape-3 img {
+        width: 135px;
+        right: 0;
+    }
+
+    .protective-measures-shape.protective-measures-shape-2 img {
+        right: 0;
+    }
+
+    .single-protective-measure-item {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .protective-measures-shape.protective-measures-shape-3 img {
+        left: 0;
+        bottom: 0;
+        width: 70px;
+    }
+
+    .protective-measures-shape.protective-measures-shape-1 img {
+        top: 0;
+        width: 140px;
+        left: 0;
+    }
+
+    .faq-left-section {
+        left: 0;
+        position: inherit;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .faq-wrapper .section-title {
+        margin-bottom: 60px;
+        max-width: 100%;
+    }
+
+    .page-margin-all {
+        margin-bottom: 40px;
+    }
+
+    .faq-virus-shape.faq-virus-shape-2 img {
+        right: 0;
+        top: 0;
+        width: 180px;
+    }
+
+    .faq-virus-shape.faq-virus-shape-4 img {
+        bottom: -76px;
+        width: 210px;
+        right: 0;
+    }
+
+    .faq-virus-shape.faq-virus-shape-1 img {
+        left: -95px;
+        width: 180px;
+    }
+
+    .cta-content .cta-main-text {
+        font-size: 42px;
+        margin: 0;
+    }
+
+    .cta-virus-shape.cta-virus-shape-2 img {
+        right: 0;
+        width: 300px;
+        bottom: 0;
+        top: auto;
+    }
+
+    .blog-carousel.owl-carousel .owl-nav .owl-prev {
+        left: 0;
+    }
+
+    .blog-carousel.owl-carousel:hover .owl-nav .owl-prev {
+        left: 0;
+    }
+
+    .blog-carousel.owl-carousel:hover .owl-nav .owl-next {
+        right: 0;
+    }
+    
+    .blog-carousel.owl-carousel .owl-nav div.owl-next {
+        right: 0;
+    }
+
+    .footer-virus-shape.footer-virus-shape-2 img {
+        right: 0;
+        bottom: 0;
+    }
+    
+    .about-demo {
+        width: 100%;
+    }
+
+    .about-virus-shape.about-virus-shape-2 img {
+        right: 0;
+    }
+
+    .single-avoid-contact .protective-measure-icon-wrap {
+        margin: 0 auto;
+    }
+
+    .breadcrumb-virus-shape.breadcrumb-shape-1 img {
+        width: 80px;
+        left: 0;
+    }
+
+    .breadcrumb-virus-shape.breadcrumb-shape-3 img {
+        width: 80px;
+        right: 0;
+        top: -12px;
+    }
+
+    .breadcrumb-virus-shape.breadcrumb-shape-4 img {
+        width: 70px;
+        right: 0;
+        bottom: 35px;
+    }
+
+    .about-demo {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .about-demo img {
+        width: 330px;
+    }
+    
+    .about-virus-shape.about-virus-shape-2 img {
+        right: 71px;
+    }
+
+    .about-virus-shape.about-virus-shape-1 img {
+        left: 87px;
+    }
+
+    .single-avoid-mar-top {
+        margin-top: 0;
+    }
+
+    .specialist-virus-shape.specialist-virus-shape-2 img {
+        right: 0;
+    }
+
+    .error-virus-shape.error-shape-3 img {
+        right: 0;
+        width: 200px;
+    }
+
+    .contact-info-content {
+        margin-left: 90px;
+    }
+    
+    .blog-details-thumbnail img {
+        height: 100%;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header-full-right {
+        display: none;
+    }
+
+    .mean-container .mean-bar {
+        position: absolute;
+        left: 0;
+        margin-top: -85px;
+        border-bottom: none;
+    }
+
+    .cta-btn.btn {
+        display: none;
+    }
+
+    .home-banner-content {
+        padding: 100px 0 65px;
+    }
+
+    .large-man-shape {
+        margin-bottom: 100px;
+    }
+
+    .small-virus-shape.small-shape-1 img {
+        width: 40px;
+        top: 23px;
+        left: 0;
+    }
+
+    .small-virus-shape.small-shape-2 img {
+        width: 50px;
+        top: 127px;
+    }
+
+    .small-virus-shape.small-shape-3 img {
+        width: 40px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .home-banner-wrapper .row {
+        height: auto;
+    }
+
+    .small-virus-shape.small-shape-4 img {
+        width: 70px;
+        right: 0;
+    }
+
+    .small-virus-shape.small-shape-5 img {
+        width: 60px;
+        left: 0;
+    }
+
+    .common-btn {
+        font-size: 15px;
+        padding: 20px 40px;
+    }
+
+    .banner-btn-wrappper .play-btn {
+        height: 58px;
+        width: 58px;
+        line-height: 58px;
+        margin-left: 25px;
+    }
+
+    .about-meta-text .common-btn {
+        margin-top: 40px;
+        padding: 20px 30px;
+    }
+
+    .common-btn i {
+        display: none;
+    }
+
+    .about-demo-home {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .about-meta-text {
+        padding: 0px;
+    }
+
+    .about-meta-text .section-title {
+        max-width: 100%;
+    }
+
+    .spread-shape.spread-shape-1 img {
+        top: 20px;
+        left: 0;
+        width: 100px;
+    }
+
+    .spread-shape.spread-shape-2 img {
+        bottom: 15px;
+        right: 0;
+        width: 80px;
+    }
+
+    .section-padding {
+        padding: 100px 0;
+    }
+
+    .page-mar-small{
+        margin-bottom: 30px;
+    }
+
+    .spread-content .spread-content-title {
+        font-size: 27px;
+    }
+
+    .current-cases-shape.current-cases-shape-1 img {
+        top: 20px;
+        left: 0;
+        width: 90px;
+    }
+
+    .current-cases-shape.current-cases-shape-2 img {
+        width: 70px;
+        opacity: .3;
+    }
+
+    .cases-lists li  {
+        width: 49%;
+    }
+
+    .current-cases-shape.current-cases-shape-3 img {
+        width: 80px;
+        bottom: 71px;
+        left: 20px;
+    }
+
+    .symptoms-virus-shape.symptoms-virus-shape-1 img {
+        width: 90px;
+        top: 20px;
+        left: 0;
+    }
+
+    .symptoms-virus-shape.symptoms-virus-shape-2 img {
+        top: 30%;
+        width: 70px;
+        right: 0;
+    }
+
+    .symptoms-virus-shape.symptoms-virus-shape-3 img {
+        width: 60px;
+        right: 25px;
+    }
+
+    .symptoms-round-border:before {
+        width: 380px;
+        height: 380px;
+    }
+
+    .woman-towel img {
+        width: 250px;
+    }
+
+    .symptoms-round-border {
+        max-width: 605px;
+        height: 605px;
+    }
+
+    .symptoms-text .symptoms-title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .sympotoms-text-wrapper.middle-circle-bottom-right {
+        margin: 0px 99px 223px;
+        margin-top: -10px;
+    }
+
+    .sympotoms-text-wrapper.middle-circle-bottom-left {
+        margin: 0px 30px -30px;
+        margin-top: -10px;
+    }
+
+    .sympotoms-text-wrapper.middle-circle-left {
+        margin: 94px -75px;
+    }
+
+    .sympotoms-text-wrapper.middle-circle-right {
+        margin: 94px 210px;
+    }
+
+    .sympotoms-text-wrapper {
+        height: 134px;
+        width: 134px;
+    }
+
+    .symptoms-text {
+        width: 130px;
+        height: 130px;
+    }
+
+    .sympotoms-text-wrapper.top-circle-right {
+        margin: 0 97px 0px;
+    }
+
+    .protective-measures-shape.protective-measures-shape-2 img {
+        right: 0;
+        width: 70px;
+        top: 13%;    
+    }
+
+    .single-protective-measure-item {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .protection-measure-section {
+        padding: 30px 10px 30px 15px;
+    }
+
+    .protective-text {
+        margin: 0px 37px 0 135px;
+    }
+
+    .protection-all-left .protective-text {
+        margin: 0 150px 0 15px;
+    }
+
+    .protection-all-left .protection-measure-section {
+        padding: 30px 15px 30px 5px;
+    }
+
+    .protection-little-border-2:after, .protection-little-border-3:after, .single-protective-measure-item:before, .protection-little-border-1:after, .protective-measure-all:after{
+        visibility: hidden;
+    }
+
+    .protective-measures-shape.protective-measures-shape-3 img {
+        left: 13px;
+        bottom: 15px;
+        width: 70px;
+    }
+
+    .protective-measures-shape.protective-measures-shape-1 img {
+        top: 3%;
+        width: 50px;
+        left: 2%;
+    }
+
+    .faq-left-section {
+        left: 0;
+        position: inherit;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .faq-wrapper .section-title {
+        margin-bottom: 60px;
+        max-width: 100%;
+    }
+
+    .faq-virus-shape.faq-virus-shape-2 img {
+        right: 0;
+        top: 10px;
+        width: 100px;
+    }
+
+    .faq-virus-shape.faq-virus-shape-3 img {
+        width: 80px;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .faq-virus-shape.faq-virus-shape-4 img {
+        bottom: 10%;
+        right: 0;
+        width: 50px;
+    }
+
+    .faq-virus-shape.faq-virus-shape-1 img {
+        left: 25px;
+        width: 80px;
+        top: 10%;
+    }
+
+    .cta-content .cta-main-text {
+        font-size: 42px;
+        margin: 0;
+    }
+
+    .cta-content {
+        padding: 0;
+        text-align: center;
+    }
+
+    .cta-main-button {
+        text-align: center;
+        margin-top: 40px;
+    }    
+
+    .cta-main-button .cta-button.btn {
+        padding: 20px 36px;
+    }
+
+    .cta-main-button .cta-button.btn i {
+        display: none;
+    }
+
+    .cta-virus-shape.cta-virus-shape-2 img {
+        right: 0;
+        width: 250px;
+        top: auto;
+        bottom: 0;
+    }
+
+    .blog-carousel.owl-carousel .owl-nav .owl-prev {
+        left: 0;
+    }
+
+    .blog-carousel.owl-carousel:hover .owl-nav .owl-prev {
+        left: 0;
+    }
+
+    .blog-carousel.owl-carousel:hover .owl-nav .owl-next {
+        right: 0;
+    }
+    
+    .blog-carousel.owl-carousel .owl-nav div.owl-next {
+        right: 0;
+    }
+
+    .footer-virus-shape.footer-virus-shape-1 img {
+        width: 80px;
+    }
+
+    .footer-virus-shape.footer-virus-shape-2 img {
+        right: 15px;
+        bottom: 5%;
+        width: 80px;
+    }
+
+    .mar-top{
+        margin-top: 50px;
+    }
+
+   
+    .about-demo {
+        width: 100%;
+    }
+
+    .about-virus-shape.about-virus-shape-2 img {
+        right: 0;
+    }
+
+    .single-avoid-contact .protective-measure-icon-wrap {
+        margin: 0 auto;
+    }
+
+    .breadcrumb-virus-shape.breadcrumb-shape-1 img {
+        width: 80px;
+        left: 0;
+    }
+
+    .breadcrumb-virus-shape.breadcrumb-shape-3 img {
+        width: 80px;
+        right: 0;
+        top: -12px;
+    }
+
+    .breadcrumb-virus-shape.breadcrumb-shape-4 img {
+        width: 70px;
+        right: 0;
+        bottom: 35px;
+    }
+
+    .about-demo {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .about-demo img {
+        width: 330px;
+    }
+    
+    .about-virus-shape.about-virus-shape-2 img {
+        right: 71px;
+    }
+
+    .about-virus-shape.about-virus-shape-1 img {
+        left: 87px;
+    }
+
+    .single-avoid-mar-top {
+        margin-top: 0;
+    }
+
+    .breadcrumb-image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .breadcrumb-image:before, .breadcrumb-image:after {
+        width: 380px;
+        height: 380px;
+    }
+
+    .breadcrumb-image:after {
+        width: 410px;
+        height: 410px;
+    }
+
+    .breadcrumb-image img {
+        width: 245px;
+    }
+
+    .specialist-virus-shape.specialist-virus-shape-1 img {
+        top: 30px;
+        left: -50px;
+        width: 100px;
+    }
+
+    .specialist-virus-shape.specialist-virus-shape-2 img {
+        right: 0;
+        top: 0;
+        width: 120px;
+    }
+
+    .specialist-virus-shape.specialist-virus-shape-4 img {
+        bottom: -55px;
+        width: 150px;
+    }
+
+    .specialist-virus-shape.specialist-virus-shape-3 img {
+        width: 150px;
+    }
+
+    .error-virus-shape.error-shape-3 img {
+        right: 0;
+        width: 120px;
+    }
+
+    .error-img-woman {
+        text-align: center;
+    }
+
+    .contact-info-icon-wrapper {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .contact-info-content {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .single-contact-information-wrap {
+        text-align: center;
+    }
+
+    .right-side-blog {
+        margin-top: 70px;
+    }
+    
+    .blog-details-thumbnail img {
+        height: 100%;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    
+    .header-full-right {
+        display: none;
+    }
+
+    .mean-container .mean-bar {
+        position: absolute;
+        left: 0;
+        margin-top: -82px;
+        border-bottom: none;
+    }
+
+    .cta-btn.btn {
+        display: none;
+    }
+
+    .home-banner-content {
+        padding: 100px 0 65px;
+    }
+
+    .home-banner-content .banner-subtitle {
+        margin-bottom: 20px;
+    }
+
+    .home-banner-content .banner-main-title {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 35px;
+    }
+
+    .large-man-shape {
+        margin-bottom: 100px;
+    }
+
+    .small-virus-shape.small-shape-1 img {
+        width: 40px;
+        top: 23px;
+        left: 0;
+    }
+
+    .small-virus-shape.small-shape-2 img {
+        width: 50px;
+        top: 110px;
+    }
+
+    .small-virus-shape.small-shape-3 img {
+        width: 40px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .home-banner-wrapper .row {
+        height: auto;
+    }
+
+    .small-virus-shape.small-shape-4 img {
+        width: 70px;
+        right: 0;
+    }
+
+    .small-virus-shape.small-shape-5 img {
+        width: 60px;
+        left: 0;
+    }
+
+    .common-btn {
+        font-size: 15px;
+        padding: 20px 40px;
+    }
+
+    .banner-btn-wrappper .play-btn {
+        height: 58px;
+        width: 58px;
+        line-height: 58px;
+        margin-left: 25px;
+    }
+
+    .about-demo-home {
+        margin-bottom: 60px;
+    }
+
+    .section-heading-title {
+        font-size: 30px;
+    }
+
+    .page-mar-mobile{
+        margin-bottom: 30px;
+    }
+
+    .about-meta-text .common-btn {
+        margin-top: 40px;
+        padding: 20px 30px;
+    }
+
+    .common-btn i {
+        display: none;
+    }
+
+    .about-demo-home {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .about-meta-text {
+        padding: 0px;
+    }
+
+    .about-meta-text .section-title {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .spread-shape.spread-shape-1 img {
+        top: 20px;
+        left: 0;
+        width: 100px;
+    }
+
+    .spread-shape.spread-shape-2 img {
+        bottom: 15px;
+        right: 0;
+        width: 80px;
+    }
+
+    .section-padding {
+        padding: 100px 0;
+    }
+
+    .page-mar-small{
+        margin-bottom: 30px;
+    }
+
+    .spread-content .spread-content-title {
+        font-size: 27px;
+    }
+
+    .current-cases-shape.current-cases-shape-1 img {
+        top: 20px;
+        left: 0;
+        width: 90px;
+    }
+
+    .current-cases-shape.current-cases-shape-2 img {
+        width: 70px;
+        opacity: .3;
+    }
+
+    .cases-lists li {
+        width: 100%;
+    }
+
+    .current-cases-shape.current-cases-shape-3 img {
+        width: 80px;
+        bottom: 71px;
+        left: 20px;
+    }
+
+    .symptoms-virus-shape.symptoms-virus-shape-1 img {
+        width: 90px;
+        top: 20px;
+        left: 0;
+    }
+
+    .symptoms-virus-shape.symptoms-virus-shape-2 img {
+        top: 30%;
+        width: 70px;
+        right: 0;
+    }
+
+    .symptoms-virus-shape.symptoms-virus-shape-3 img {
+        width: 60px;
+        right: 25px;
+    }
+
+    .symptoms-round-border:before {
+       visibility: hidden;
+       width: auto;
+       height: auto;
+    }
+
+    .woman-towel img {
+        width: 250px;
+    }
+
+    .symptoms-round-border {
+        max-width: 605px;
+        height: auto;
+        background: transparent;
+        border: none;
+    }
+
+    .symptoms-text .symptoms-title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .sympotoms-text-wrapper.middle-circle-bottom-right {
+        margin: 0 auto;
+    }
+
+    .sympotoms-text-wrapper.middle-circle-bottom-left {
+        margin: 0 auto;
+    }
+
+    .sympotoms-text-wrapper.middle-circle-left {
+        margin: 0 auto;
+    }
+
+    .sympotoms-text-wrapper.middle-circle-right {
+        margin: 0 auto;
+    }
+
+    .sympotoms-text-wrapper {
+        height: 134px;
+        width: 134px;
+        margin: 0 auto;
+    }
+
+    .woman-towel {
+        display: none;
+    }
+
+    .symptoms-text {
+        width: 130px;
+        height: 130px;
+    }
+
+    .sympotoms-text-wrapper.top-circle-right {
+        margin: 0 auto;
+    }
+
+    .protective-measures-shape.protective-measures-shape-2 img {
+        right: 0;
+        width: 70px;
+        top: 13%;    
+    }
+
+    .single-protective-measure-item {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .protection-measure-section {
+        padding: 30px 10px 30px 15px;
+    }
+
+    .protective-text {
+        margin: 0px 37px 0 135px;
+    }
+
+    .protection-all-left .protective-text {
+        margin: 0 150px 0 15px;
+    }
+
+    .protection-all-left .protection-measure-section {
+        padding: 30px 15px 30px 5px;
+    }
+
+    .protection-little-border-2:after, .protection-little-border-3:after, .single-protective-measure-item:before, .protection-little-border-1:after, .protective-measure-all:after{
+        visibility: hidden;
+    }
+
+    .left-angle.single-protective-measure-item:before, .protection-little-border-1:after, .right-angle.single-protective-measure-item:before, .protection-little-border-2:after, .protection-little-border-3:after {
+        display: none;
+    }
+
+    .protective-measures-shape.protective-measures-shape-3 img {
+        left: 13px;
+        bottom: 15px;
+        width: 70px;
+    }
+
+    .protective-measures-shape.protective-measures-shape-1 img {
+        top: 2%;
+        width: 50px;
+        left: 10px;
+    }
+
+    .woman-tea-large img {
+        width: 200px;
+    }
+
+    .woman-tea-large:after {
+        width: 280px;
+        height: 280px;
+    }
+
+    .single-blog-wrap {
+        margin: 0 20px;
+    }
+
+    .cta-virus-shape.cta-virus-shape-1 img {
+        width: 200px;
+        left: -100px;
+        top: -55px;
+    }
+
+    .faq-left-section {
+        left: 0;
+        position: inherit;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .faq-wrapper .section-title {
+        margin-bottom: 60px;
+        max-width: 100%;
+    }
+
+    .faq-virus-shape.faq-virus-shape-2 img {
+        right: 0;
+        top: 10px;
+        width: 100px;
+    }
+
+    .faq-virus-shape.faq-virus-shape-3 img {
+        width: 80px;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .faq-virus-shape.faq-virus-shape-4 img {
+        bottom: 10%;
+        right: 0;
+        width: 50px;
+    }
+
+    .faq-virus-shape.faq-virus-shape-1 img {
+        left: 25px;
+        width: 80px;
+        top: 10%;
+    }
+
+    .cta-content .cta-main-text {
+        font-size: 28px;
+        margin: 0;
+        line-height: 38px;
+    }
+
+    .cta-wrapper.section-padding {
+        padding: 80px 0;
+    }
+
+    .single-footer-wrapper .footer-title {
+        margin-bottom: 40px;
+    }
+
+    .cta-content {
+        padding: 0;
+        text-align: center;
+    }
+
+    .cta-main-button {
+        text-align: center;
+        margin-top: 40px;
+    }    
+
+    .cta-main-button .cta-button.btn {
+        padding: 20px 36px;
+    }
+
+    .cta-main-button .cta-button.btn i {
+        display: none;
+    }
+
+    .cta-virus-shape.cta-virus-shape-2 img {
+        right: 0;
+        width: 200px;
+        top: auto;
+        bottom: -110px;
+    }
+
+    .blog-carousel.owl-carousel .owl-nav .owl-prev {
+        left: 0;
+    }
+
+    .blog-carousel.owl-carousel:hover .owl-nav .owl-prev {
+        left: 0;
+    }
+
+    .blog-carousel.owl-carousel:hover .owl-nav .owl-next {
+        right: 0;
+    }
+    
+    .blog-carousel.owl-carousel .owl-nav div.owl-next {
+        right: 0;
+    }
+
+    .footer-virus-shape.footer-virus-shape-1 img {
+        width: 60px;
+        top: 0px;
+        left: -23px;
+    }
+
+    .footer-virus-shape.footer-virus-shape-2 img {
+        right: 15px;
+        bottom: 5%;
+        width: 80px;
+    }
+
+    .site-copyright-wrapper {
+        text-align: center;
+    }
+
+    .site-copyright-text.text-right {
+        text-align: center !important;
+    }
+
+    .copyright-text {
+        margin-bottom: 15px;
+    }
+
+    .breadcrumb-content .breadcrumb-main-title {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .single-avoid-contact .protective-measure-icon-wrap {
+        margin: 0 auto;
+    }
+
+    .breadcrumb-virus-shape.breadcrumb-shape-1 img, .breadcrumb-virus-shape.breadcrumb-shape-3 img {
+        display: none;
+    }
+
+    .breadcrumb-virus-shape.breadcrumb-shape-2 img {
+        width: 80px;
+    }
+
+    .breadcrumb-virus-shape.breadcrumb-shape-4 img {
+        width: 70px;
+        right: 0;
+        bottom: 0;
+    }
+
+    .breadcrumb-image-wrapper {
+        display: none;
+    }
+
+    .breadcrumb-wrapper .row {
+        height: 200px;
+    }
+ 
+    .section-padding {
+        padding: 80px 0;
+    }
+
+    .about-demo-image {
+        margin-bottom: 40px;
+    }
+
+    .about-virus-shape.about-virus-shape-2 img {
+        right: 0;
+        bottom: 72px;
+    }
+
+    .about-virus-shape.about-virus-shape-1 img, .about-virus-shape.about-virus-shape-2 img {
+        width: 70px;
+    }
+
+    .about-virus-shape.about-virus-shape-1 img {
+        top: 100px;
+        left: 0px;
+    }
+
+    .about-demo {
+        width: 100%;
+        height: 340px;
+    }
+
+    .about-demo img {
+        width: 225px;
+    }
+
+    .about-section-2 .about-meta-text {
+        padding: 0;
+        margin-top: 60px;
+    }
+
+    .reverse-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .single-avoid-mar-top {
+        margin-top: 0;
+    }
+
+    .breadcrumb-unvisible {
+        display: none;
+    }
+
+    .single-specialist-doctor-wrap-2 .specialist-doctor-image {
+        margin: 0 auto;
+    }
+
+    .specialist-virus-shape.specialist-virus-shape-1 img {
+        top: 30px;
+        left: -50px;
+        width: 100px;
+    }
+
+    .specialist-virus-shape.specialist-virus-shape-2 img {
+        right: 0;
+        top: 0;
+        width: 80px;
+    }
+
+    .specialist-virus-shape.specialist-virus-shape-4 img {
+        bottom: 0;
+        width: 80px;
+        right: 0;
+    }
+
+    .specialist-virus-shape.specialist-virus-shape-3 img {
+        width: 100px;
+        left: -33px;
+    }
+
+    .semi-blue-section-title .section-heading-title .section-blue-text {
+        display: block;
+    }
+
+    .contact-virus-shape.contact-virus-shape-1 img {
+        width: 250px;
+    }
+
+    .contact-virus-shape.specialist-virus-shape-2 img {
+        width: 250px;
+    }
+
+    .contact-virus-shape.contact-virus-shape-3 img {
+        bottom: 0;
+        width: 150px;
+    }
+
+    .error-virus-shape.error-shape-3 img {
+        right: 0;
+        width: 80px;
+    }
+
+    .error-main-title h2 {
+        font-size: 180px;
+    }
+
+    .error-img-woman {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .error-meta-content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .error-virus-shape.error-shape-2 img {
+        width: 90px;
+    }
+
+    .error-virus-shape.error-shape-4 img {
+        width: 100px;
+    }
+
+    .google-map-wrap iframe {
+        height: 300px;
+    }
+
+    .contact-info-icon-wrapper {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .contact-info-content {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .single-contact-information-wrap {
+        text-align: center;
+    }
+
+    .single-contact-information-wrap.border-right {
+        border: none !important;
+    }
+
+    .single-contact-information-wrap {
+        padding: 0;
+    }
+
+    #scrollUp {
+        right: 15px;
+    }
+
+    .product-view-mode {
+        text-align: center;
+    }
+
+    .product-showing-results {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .shop-margin-40 {
+        margin-bottom: 40px;
+    }
+
+    .right-side-blog {
+        margin-top: 70px;
+    }
+
+    .blog-section-bg {
+        height: 250px;
+    }
+
+    .blog-details-thumbnail {
+        margin-bottom: 45px;
+    }
+
+    .blog-get-on-link ul li {
+        margin-bottom: 5px;
+    }
+
+    .blog-get-on-link ul li a {
+        padding: 15px 25px 15px 25px;
+        margin-right: 5px;
+    }
+
+    .blog-sharelink-inner-wrap ul li {
+        margin-bottom: 5px;
+    }
+
+    .blog-sharelink-inner-wrap ul li a {
+        padding: 8px;
+    }
+
+    
+    .blog-comments-section {
+        margin-top: 30px;
+    }
+
+    .single-comment-wrap.second-comment {
+        margin-left: 0;
+    }
+
+    .single-comment-wrap img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .comments-content {
+        padding-left: 85px;
+    }
+
+    .comments-content .reply a i {
+        padding-right: 2px;
+    }
+
+    .comments-content span.comment-date {
+        font-size: 11px;
+    }
+
+    .comments-content h6 {
+        font-size: 16px;
+    }
+
+    .blog-contact-us-wrap {
+        margin-top: 30px;
+        padding: 30px 25px 30px 25px;
+    }
+
+    .blog-contact-us-wrap .submission-form-inner {
+        padding: 20px 0px;
+    }
+
+    .comments-content .reply a {
+        font-size: 13px;
+    }
+
+    .comments-content .reply {
+        top: -5px;
+    }
+
+    .header-logo a {
+        margin: 15px 0;
+    }
+
+
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ 
+}

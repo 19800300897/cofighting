@@ -1,0 +1,486 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>实时动态</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    .container {
+      width: 1500px;
+      margin: 0 auto;
+    }
+
+    #myEcharts {
+      width: 1200px;
+      height: 800px;
+      margin: 0 auto;
+    }
+    </style>
+
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <!-- Owl-Carousel CSS -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+
+    <!-- Magnific-Popup CSS -->
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="./assets/css/icofont.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+
+    <!-- Meanmenu CSS -->
+    <link rel="stylesheet" href="./assets/css/meanmenu.css">
+
+    <!-- Theme Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+<!--    <script src="https://www.echartsjs.com/examples/vendors/jquery/jquery.js"></script>-->
+<!--    &lt;!&ndash; 引入 echarts.js &ndash;&gt;-->
+<!--    <script src="https://www.echartsjs.com/examples/vendors/echarts/echarts.min.js?_v_=1578305236132"></script>-->
+<!--    &lt;!&ndash;引入中国的地图数据js文件，引入后会自动注册地图名字和数据&ndash;&gt;-->
+<!--    <script src="https://www.echartsjs.com/examples/vendors/echarts/map/js/china.js?_v_=1578305236132"></script>-->
+
+
+
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Preloader -->
+<div id="preloader-body" class="no-scroll-y">
+    <div>
+        <div id="preloader">
+            <div id="ctn-preloader" class="ctn-preloader">
+                <div class="animation-preloader">
+
+                    <div class="spinner"></div>
+
+                    <div class="txt-loading">
+                        <span data-text-preloader="K" class="letters-loading">全</span>
+                        <span data-text-preloader="O" class="letters-loading">民</span>
+                        <span data-text-preloader="R" class="letters-loading">抗</span>
+                        <span data-text-preloader="I" class="letters-loading">疫</span>
+                    </div>
+
+                </div>
+
+                <!-- Preloader sides - Model 1 -->
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Header Area Start -->
+<header class="header-area-wrapper">
+    <div class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-4">
+                    <div class="header-logo">
+                        <a href="index.html">
+<!--                            <img src="./assets/img/logo.png" alt="">-->
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7">
+                    <div class="main-menu">
+                        <nav id="mobile-menu">
+                            <ul>
+                                <li><a href="index.html">主页</a></li>
+                                <li><a href="nearby.html">附近疫情</a></li>
+                                <li  class="active"><a href="cases.html">实时动态</a> </li>
+                                <li><a href="about.html">关于COVID-19</a></li>
+                                <li><a href="scanqr.html">信息填报</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 text-right">
+                    <div class="header-full-right">
+                        <div class="header-search">
+                            <a data-toggle="modal" data-target="#search-modal"  href="#" class="header-search-anchor common-hover-1"><i class="icofont-search-2"></i></a>
+                        </div>
+                        <div class="cta-btn">
+                            <a href="contact.html" class="call-button common-hover-1">联系我们</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mobile-menu"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header Area End -->
+
+<main>
+    <!-- Breadcrumb Area Start -->
+    <section class="breadcrumb-wrapper purple-bg">
+        <div class="breadcrumb-virus-shape breadcrumb-shape-1">
+            <img src="assets/img/mini-white-shape.png" alt="">
+        </div>
+        <div class="breadcrumb-virus-shape breadcrumb-shape-2">
+            <img src="assets/img/mini-white-shape.png" alt="">
+        </div>
+        <div class="breadcrumb-virus-shape breadcrumb-shape-3">
+            <img src="assets/img/mini-white-shape.png" alt="">
+        </div>
+        <div class="breadcrumb-virus-shape breadcrumb-shape-4">
+            <img src="assets/img/mini-white-shape.png" alt="">
+        </div>
+    </section>
+    <!-- Breadcrumb Area End -->
+
+    <!-- Current Cases Area Start -->
+    <div class="current-cases-wrapper section-padding">
+        <div class="current-cases-shape current-cases-shape-1">
+            <img src="assets/img/purple-virus-shape.png" alt="">
+        </div>
+        <div class="current-cases-shape current-cases-shape-2">
+            <img src="assets/img/purple-virus-shape.png" alt="">
+        </div>
+        <div class="current-cases-shape current-cases-shape-3">
+            <img src="assets/img/purple-virus-shape.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="section-title text-center semi-blue-section-title">
+                        <h5 class="section-single-subtitle">新冠病毒2019-nCov</h5>
+                        <h2 class="section-heading-title">疫情实时动态</h2>
+                        <span class="bottom-border"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--  res.chinaTotal.Confirm          -->
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-case-item">
+                        <h3 class="cases-title">累计确诊</h3>
+                        <h2 id="totalConfirm" class="cases-number"></h2>
+                    </div>
+                </div>
+
+                <!--  res.chinaTotal.dead          -->
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-case-item">
+                        <h3 class="cases-title">累计死亡</h3>
+                        <h2 id="totalDead" class="cases-number"></h2>
+                    </div>
+                </div>
+
+                <!--  res.chinaTotal.heal          -->
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-case-item">
+                        <h3 class="cases-title">累计治愈</h3>
+                        <h2 id="totalHeal" class="cases-number"></h2>
+                    </div>
+                </div>
+
+                <!--  res.chinaTotal.nowConfirm          -->
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-case-item">
+                        <h3 class="cases-title">现存确诊</h3>
+                        <h2 id="nowConfirm" class="cases-number"></h2>
+                    </div>
+                </div>
+
+                <!--  res.chinaAdd.confirm          -->
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-case-item">
+                        <h3 class="cases-title">新增确诊</h3>
+                        <h2 id="addConfirm" class="cases-number"></h2>
+                    </div>
+                </div>
+
+                <!--  res.chinaAdd.heal          -->
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-case-item">
+                        <h3 class="cases-title">新增治愈</h3>
+                        <h2 id="addHeal" class="cases-number"></h2>
+                    </div>
+                </div>
+
+<!--                <div class="col-xl-3 col-lg-4 col-md-6">-->
+<!--                    <div class="single-case-item">-->
+<!--                        <h3 class="cases-title">Critical</h3>-->
+<!--                        <h2 class="cases-number">58,575</h2>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="col-xl-3 col-lg-4 col-md-6">-->
+<!--                    <div class="single-case-item">-->
+<!--                        <h3 class="cases-title">Affected Countries</h3>-->
+<!--                        <h2 class="cases-number">213</h2>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+
+<!--            <div class="row">-->
+<!--                <div class="col-lg-12">-->
+<!--                    <div class="map-img">-->
+<!--                        <img src="assets/img/map.png" alt="">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+        </div>
+    </div>
+
+    <!-- Current Cases Area End -->
+                <div class="row">
+                    <div class="col-lg-12">
+    <div class="current-cases-wrapper section-padding">
+        <div class="container">
+<!--            <h3>现存确诊人数如下：</h3>-->
+            <!--为echarts准备一个dom容器-->
+            <div class="row"><div id="myEcharts"></div></div>
+        </div>
+    </div>
+                    </div>
+                </div>
+    <div class="site-copyright-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="copyright-text">
+                        <h6>全民抗疫 | 开发团队: <a target="_blank" href="#" class="copyright-anchor">糖葫芦香锅烧烤串串香</a></h6>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="site-copyright-text text-right">
+                        <h6> &copy; 2020 Google Girl Hackathon</br> | All Right Reserved</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="search-modal"
+         aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-search">
+                        <form action="index.html">
+                            <input type="text" name="text" placeholder="Search here...">
+                            <button><i class="fas fa-search" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/echarts.min.js"></script>
+
+    <script src="./assets/js/china.js"></script>
+
+    <!-- jQuery JS -->
+    <script src="./assets/js/jquery-1.12.4.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="./assets/js/popper.min.js"></script>
+
+    <!-- Boostrap JS -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <!-- Owl-Carousel JS -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+
+    <!-- Meanmenu JS -->
+    <script src="./assets/js/jquery.meanmenu.js"></script>
+
+    <!-- Wow JS -->
+    <script src="./assets/js/wow.min.js"></script>
+
+    <!-- ScrollUp JS -->
+    <script src="./assets/js/jquery.scrollUp.min.js"></script>
+
+    <!-- Magnific-Popup JS -->
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme-Main JS -->
+    <script src="./assets/js/main.js"></script>
+
+
+    <!--mapData -->
+    <script>
+    //初始化echarts实例
+    var myChart = echarts.init(document.getElementById('myEcharts'));
+
+    var dataConfirm = [];
+    var dataHeal = [];
+    var dataDead = [];
+
+    // 指定图表的配置项和数据
+    option = {
+      tooltip: {
+        trigger: 'item',
+        formatter: function(a){
+         res = a.name + '</br>现存确诊：' + a.value;
+         for (var i = 0; i < dataConfirm.length; i++) {
+             if(a.name == dataConfirm[i].name){
+             res +=  '</br>累计确诊：' + dataConfirm[i].value;
+             res +=  '</br>累计治愈：' + dataHeal[i].value;
+             res +=  '</br>累计死亡：' + dataDead[i].value;
+           }//if
+         }//for
+        return res;
+        }//formatter
+      },
+      visualMap: {
+        type: 'piecewise',
+        pieces: [
+          { min: 1000, max: 1000000, label: '大于等于1000人', color: '#473C8B' },
+          { min: 500, max: 999, label: '现存确诊500-999人', color: '#5D478B' },
+          { min: 100, max: 499, label: '现存确诊100-499人', color: '#6959CD' },
+          { min: 10, max: 99, label: '现存确诊10-99人', color: '#8968CD' },
+          { min: 1, max: 9, label: '现存确诊1-9人', color: '#AB82FF' },
+          { min: 0, max: 0, label: '现存确诊0人', color: '#FFFFFF' },
+        ],
+        color: ['#E0022B', '#E09107', '#A3E00B']
+      },
+      toolbox: {
+        show: true,
+        orient: 'vertical',
+        left: 'right',
+        top: 'center',
+        feature: {
+          mark: { show: true },
+          dataView: { show: true, readOnly: false },
+          restore: { show: true },
+          saveAsImage: { show: true }
+        }
+      },
+      roamController: {
+        show: true,
+        left: 'right',
+        mapTypeControl: {
+          'china': true
+        }
+      },
+      series: [
+        {
+          name: '确诊数',
+          type: 'map',
+          mapType: 'china',
+          roam: false,
+          label: {
+            show: true,
+            color: 'rgb(249, 249, 249)'
+          },
+          data: []
+        }
+      ]
+    };
+
+    //使用指定的配置项和数据显示图表
+    myChart.setOption(option);
+
+    //获取数据
+    function getData() {
+      $.ajax({
+        url: "https://view.inews.qq.com/g2/getOnsInfo?name=disease_h5",
+        dataType: "jsonp",
+        success: function (data) {
+          //  console.log(data.data)
+          var res = data.data || "";
+          res = JSON.parse(res);
+          var newArr = [];
+          //newArr的数据格式为：
+          // [{
+          //   name: '北京11',
+          //   value: 212
+          // }, {
+          //   name: '天津',
+          //   value: 60
+          // }]
+          if (res) {
+
+          $("#totalConfirm").text(res.areaTree[0].total.confirm);
+          $("#totalDead").text(res.chinaTotal.dead);
+          $("#totalHeal").text(res.chinaTotal.heal);
+          $("#nowConfirm").text(res.chinaTotal.nowConfirm);
+          $("#addConfirm").text(res.chinaAdd.confirm);
+          $("#addHeal").text(res.chinaAdd.heal);
+            //获取到各个省份的数据
+            var province = res.areaTree[0].children;
+            for (var i = 0; i < province.length; i++) {
+              var json = {
+                name: province[i].name,
+                value: province[i].total.nowConfirm
+              }
+              var jsonC = {
+                name: province[i].name,
+                value: province[i].total.confirm
+              }
+
+              var jsonH = {
+                name: province[i].name,
+                value: province[i].total.heal
+              }
+
+              var jsonD = {
+                name: province[i].name,
+                value: province[i].total.dead
+              }
+
+              newArr.push(json);
+              dataConfirm.push(jsonC);
+              dataHeal.push(jsonH);
+              dataDead.push(jsonD);
+            }
+            console.log(newArr)
+            console.log(JSON.stringify(newArr))
+            //使用指定的配置项和数据显示图表
+            myChart.setOption({
+              series: [
+                {
+                  name: '确诊数',
+                  type: 'map',
+                  mapType: 'china',
+                  roam: false,
+                  label: {
+                    show: true,
+                    color: 'rgb(249, 249, 249)'
+                  },
+                  data: newArr
+                }
+              ]
+            });
+          }
+        }
+
+      })
+    }
+    getData();
+
+  </script>
+</main>
+</body>
+</html>

@@ -1,0 +1,344 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="IE=edge; charset=UTF-8">
+        <title>信息填报</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="_csrf" content="${_csrf.token}"/>
+        <!-- default header name is X-CSRF-TOKEN -->
+        <meta name="_csrf_header" content="${_csrf.headerName}"/>
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
+        <link rel="manifest" href="site.webmanifest">
+
+		<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+        <!-- Owl-Carousel CSS -->
+        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="./assets/css/animate.min.css">
+    
+        <!-- Magnific-Popup CSS -->
+        <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    
+        <!-- Flaticon CSS -->
+        <link rel="stylesheet" href="./assets/css/icofont.min.css">
+    
+        <!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+    
+        <!-- Meanmenu CSS -->
+        <link rel="stylesheet" href="./assets/css/meanmenu.css">
+    
+        <!-- Theme Main CSS -->
+        <link rel="stylesheet" href="style.css">
+    
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+		<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.3&key=c03853f895c4c457a132a371f3c1e6a4"></script>
+        <!-- jQuery JS -->
+        <script src="./assets/js/jquery-1.12.4.min.js"></script>
+       <!-- <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>-->
+        <!--<script src="./assets/js/dist.js"></script>-->
+
+    </head>
+    <body onload="myFunction()">
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Preloader -->
+        <div id="preloader-body" class="no-scroll-y">
+            <div>
+                <div id="preloader">
+                    <div id="ctn-preloader" class="ctn-preloader">
+                        <div class="animation-preloader">
+                        
+                            <div class="spinner"></div>
+
+                            <div class="txt-loading">
+                                <span data-text-preloader="K" class="letters-loading">全</span>
+                                <span data-text-preloader="O" class="letters-loading">民</span>
+                                <span data-text-preloader="R" class="letters-loading">抗</span>
+                                <span data-text-preloader="I" class="letters-loading">疫</span>
+                            </div>
+                            
+                        </div>
+                        
+                        <!-- Preloader sides - Model 1 -->
+                        <div class="loader-section section-left"></div>
+                        <div class="loader-section section-right"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Area Start -->
+        <header class="header-area-wrapper">
+            <div class="header-area header-sticky">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-4">
+                            <div class="header-logo">
+                                <a href="index.html">
+                                    <img src="./assets/img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                       <div class="col-xl-7 col-lg-7">
+                           <div class="main-menu">
+                               <nav id="mobile-menu">
+                                   <ul>
+                                       <li><a href="index.html">主页</a></li>
+                                       <li><a href="nearby.html">附近疫情</a></li>
+                                       <li><a href="cases.html">实时动态</a> </li>
+                                       <li><a href="about.html">关于COVID-19</a></li>
+                                       <li class="active"><a href="scanqr.html">信息填报</a></li>
+                                   </ul>
+                               </nav>
+                           </div>
+                       </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 text-right">
+                            <div class="header-full-right">
+                                <div class="header-search">
+                                    <a data-toggle="modal" data-target="#search-modal"  href="#" class="header-search-anchor common-hover-1"><i class="icofont-search-2"></i></a>
+                                </div>
+                                <div class="cta-btn">
+                                    <a href="contact.html" class="call-button common-hover-1">联系我们</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Area End -->
+<footer class="footer-area section-padding">
+            <div class="footer-virus-shape footer-virus-shape-1">
+                <img src="assets/img/purple-virus-shape.png" alt="">
+            </div>
+            <div class="footer-virus-shape footer-virus-shape-2">
+                <img src="assets/img/purple-virus-shape.png" alt="">
+            </div>
+			<div class="row justify-content-center">
+			    <div class="col-xl-12 col-lg-12">
+			        <div class="section-title text-center semi-blue-section-title">
+			            <h5 class="section-single-subtitle">信息填报</h5>
+			        </div>
+			    </div>
+			</div>
+           <div class="contact-form-inner">
+               <div class="row">
+
+				   <div class="col-xl-6 col-lg-6 col-md-6">
+				       <input type="text" id="userphone" name="userphone" placeholder="电话">
+				   </div>
+                   <div class="col-xl-6 col-lg-6 col-md-6">
+                       <input type="text" id="name" name="name" placeholder="姓名">
+                   </div>
+				   <div class="col-xl-6 col-lg-6 col-md-6">
+				       <input type="text" id="position" name="position" placeholder="定位">
+				   </div>
+                   <div class="col-xl-6 col-lg-6 col-md-6" id="enaw">
+                       <input type="radio"  name="enaw" value="in">进&nbsp;&nbsp;&nbsp;
+					   <input type="radio"  name="enaw" value="out">出
+					   
+                   </div>
+                   <div class="col-xl-12 col-lg-12 col-md-12">
+                       <textarea name="information" id="information" cols="30" rows="10" placeholder="此场所存在的问题,请一并告诉我们"></textarea>
+                   </div>
+                   <div class="col-xl-12 text-center">
+                       <a href="" id="upload" class="common-btn btn common-hover-3">上传信息</a>
+                   </div>
+               </div>
+
+           </div>
+        </footer>
+
+            <div class="col-xl-4 col-lg-4 col-md-6" style="margin: 0 auto">
+                <div class="single-spread-wrapper page-mar-mobile">
+                    <div class="spread-icon-wrapper">
+                        <div class="spread-icon">
+                            <img src="assets/img/spread-icon-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="spread-content">
+                        <h3 class="spread-content-title">感染风险指数</h3>
+                        <p class="spread-meta-content">根据您之前所到地与感染病历的交叉分析，您的感染风险指数为：</p></p> <p class="spread-meta-content" id="affectedprob" style="font-weight: bold"></p>
+                    </div>
+                    <div id="details"></div>
+                    <div class="spread-content">
+                        <h5 style="color: #3b5999">指数评分细则</h5>
+                        <p align="left">计算感染风险，考虑空间和时间两方面：<br/>
+                            空间（60%）：<br/>方圆小于100米：90%+[(100-x)/1000*100%]；<br>
+                            100--200米：80%+[(200-x)/1000*100%]；<br>
+                            200--300米：70%+[(300-x)/1000*100%];<br>
+                            ...<br>
+                            900--1000米：[(1000-x)/1000*100%]；<br>
+                            1000米以外：0%<br>
+                            时间（40%）：<br>进出区间全部在病例时间区间内为100%；<br>
+                            最终一个记录的感染风险为空间+时间：<br>area*60%+time*40%.<br>
+                            多个记录取平均值。</p>
+                    </div>
+                </div>
+            </div>
+
+        <div class="site-copyright-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="copyright-text">
+                            <h6>全民抗疫 | 开发团队: <a target="_blank" href="#" class="copyright-anchor">糖葫芦香锅烧烤串串香</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="site-copyright-text text-right"> 
+                            <h6> &copy; 2020 Google Girl Hackathon<br> | All Right Reserved</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="search-modal"
+            aria-hidden="true">
+            <div class="modal-dialog " role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="modal-search">
+                            <form action="index.html">
+                                <input type="text" name="text" placeholder="Search here...">
+                                <button><i class="fas fa-search" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div id="iCenter"></div>
+        <script type="application/javascript">
+            function myFunction() {
+                // alert(sessionStorage.getItem('phone'))
+                var userphone = sessionStorage.getItem('phone');
+                $.ajax({
+                    url: "http://localhost:8080/AffectProb",
+                    type: 'GET',
+                    async: true,
+                    data: "userphone=" + userphone,
+                    dataType: 'jsonp',
+                    jsonpCallback: "successCallback",
+                    success: function (data) {
+
+                        $("#affectedprob").html(data + "%")
+                        var prob = parseFloat(data)
+                        if (prob >= 50) {
+                            $("#details").append('<p>您目前的感染风险较高，建议您进行必要的医学检查，并注意在公共场合佩戴口罩.Your current risk of infection is high. It is recommended that you take necessary medical examinations and wear a mask in public places.</p>')
+                        } else {
+                            $("#details").append('<p>你目前较安全，请注意在公共场合佩戴口罩.You are safe, please wear a mask in public.</p>')
+                        }
+                    },
+                    error: function (data) {
+                        alert(2)
+                        // console.log(data)
+                    }
+                });
+            }
+            $(document).ready(function(){
+                //点击链接的时候调用
+                $("#upload").click(function(){
+                    console.log("提交信息")
+                    //得到input的值
+                    var userphone = $("#userphone").val();
+                    var name = $("#name").val();
+                    var position = $("#position").val();
+                    var enaw = $('input[name="enaw"]:checked').val();
+                    var information = $("#information").val();
+                    //设置linkToCart的href的值
+                    if(name.length==0) alert("姓名不能为空！");
+                    else
+                    $("#upload").attr("href","http://127.0.0.1:8080/addTrack?userphone="+userphone.split(":")[1]
+                        +"&name="+name+"&position="+position.split(":")[1]+"&enaw="+enaw+"&information="+information);
+                });
+            })
+        </script>
+<script type="text/javascript">
+
+    var mapObj = new AMap.Map('iCenter');
+    mapObj.plugin('AMap.Geolocation', function () {
+        geolocation = new AMap.Geolocation({
+            enableHighAccuracy: true, // 是否使用高精度定位，默认:true
+            timeout: 10000,           // 超过10秒后停止定位，默认：无穷大
+            maximumAge: 0,            // 定位结果缓存0毫秒，默认：0
+            convert: true,            // 自动偏移坐标，偏移后的坐标为高德坐标，默认：true
+            showButton: true,         // 显示定位按钮，默认：true
+            buttonPosition: 'LB',     // 定位按钮停靠位置，默认：'LB'，左下角
+            buttonOffset: new AMap.Pixel(10, 20), // 定位按钮与设置的停靠位置的偏移量，默认：Pixel(10, 20)
+            showMarker: true,         // 定位成功后在定位到的位置显示点标记，默认：true
+            showCircle: true,         // 定位成功后用圆圈表示定位精度范围，默认：true
+            panToLocation: true,      // 定位成功后将定位到的位置作为地图中心点，默认：true
+            zoomToAccuracy:true       // 定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+        });
+        mapObj.addControl(geolocation);
+        geolocation.getCurrentPosition();
+        AMap.event.addListener(geolocation, 'complete', onComplete); // 返回定位信息
+        AMap.event.addListener(geolocation, 'error', onError);       // 返回定位出错信息
+    });
+ 
+    function onComplete(obj){
+        var res = '经纬度：' + obj.position + 
+                '\n精度范围：' + obj.accuracy + 
+                '米\n定位结果的来源：' + obj.location_type + 
+                '\n状态信息：' + obj.info + 
+                '\n地址：' + obj.formattedAddress + 
+                '\n地址信息：' + JSON.stringify(obj.addressComponent, null, 4);
+        alert(res);
+		document.getElementById('position').value='精确定位:'+obj.position;
+		var phone = sessionStorage.getItem('phone');
+		document.getElementById('userphone').value='手机号码:'+phone;
+
+	}
+ 
+    function onError(obj) {
+        alert(obj.info + '--' + obj.message);
+        console.log(obj);
+    }
+</script>
+
+
+
+        <!-- Popper JS -->
+        <script src="./assets/js/popper.min.js"></script>
+    
+        <!-- Boostrap JS -->
+        <script src="./assets/js/bootstrap.min.js"></script>
+    
+        <!-- Owl-Carousel JS -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+    
+        <!-- Meanmenu JS -->
+        <script src="./assets/js/jquery.meanmenu.js"></script>
+    
+        <!-- Wow JS -->
+        <script src="./assets/js/wow.min.js"></script>
+    
+        <!-- ScrollUp JS -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+    
+        <!-- Magnific-Popup JS -->
+        <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    
+        <!-- Theme-Main JS -->
+        <script src="./assets/js/main.js"></script>
+
+    </body>
+</html>

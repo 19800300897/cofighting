@@ -1,0 +1,353 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>附近疫情</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+
+		<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+        <!-- Owl-Carousel CSS -->
+        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="./assets/css/animate.min.css">
+    
+        <!-- Magnific-Popup CSS -->
+        <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    
+        <!-- Flaticon CSS -->
+        <link rel="stylesheet" href="./assets/css/icofont.min.css">
+    
+        <!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+    
+        <!-- Meanmenu CSS -->
+        <link rel="stylesheet" href="./assets/css/meanmenu.css">
+    
+        <!-- Theme Main CSS -->
+        <link rel="stylesheet" href="style.css">
+    
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+        <!--引入地图-->
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=IBYdAhlqgRkZLGuAT9pDVCOidp1uDkTY"></script>
+
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        
+        <!-- Preloader -->
+        <div id="preloader-body" class="no-scroll-y">
+            <div>
+                <div id="preloader">
+                    <div id="ctn-preloader" class="ctn-preloader">
+                        <div class="animation-preloader">
+                        
+                            <div class="spinner"></div>
+
+                            <div class="txt-loading">
+                                <span data-text-preloader="K" class="letters-loading">全</span>
+                                <span data-text-preloader="O" class="letters-loading">民</span>
+                                <span data-text-preloader="R" class="letters-loading">抗</span>
+                                <span data-text-preloader="I" class="letters-loading">疫</span>
+                            </div>
+                            
+                        </div>
+                        
+                        <!-- Preloader sides - Model 1 -->
+                        <div class="loader-section section-left"></div>
+                        <div class="loader-section section-right"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Area Start -->
+        <header class="header-area-wrapper">
+            <div class="header-area header-sticky">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-4">
+                            <div class="header-logo">
+                                <a href="index.html">
+                                    <img src="./assets/img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                <div class="col-xl-7 col-lg-7">
+                    <div class="main-menu">
+                        <nav id="mobile-menu">
+                            <ul>
+                                <li><a href="index.html">主页</a></li>
+                                <li class="active"><a href="nearby.html">附近疫情</a></li>
+                                <li><a href="cases.html">实时动态</a> </li>
+                                <li><a href="about.html">关于COVID-19</a></li>
+                                <li><a href="scanqr.html">信息填报</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 text-right">
+                            <div class="header-full-right">
+                                <div class="header-search">
+                                    <a data-toggle="modal" data-target="#search-modal"  href="#" class="header-search-anchor common-hover-1"><i class="icofont-search-2"></i></a>
+                                </div>
+                                <div class="cta-btn">
+                                    <a href="contact.html" class="call-button common-hover-1">联系我们</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Area End -->
+
+        <main>
+            <!-- Breadcrumb Area Start -->
+            <section class="breadcrumb-wrapper purple-bg">
+                <div class="breadcrumb-virus-shape breadcrumb-shape-1">
+                    <img src="assets/img/mini-white-shape.png" alt="">
+                </div>
+                <div class="breadcrumb-virus-shape breadcrumb-shape-2">
+                    <img src="assets/img/mini-white-shape.png" alt="">
+                </div>
+                <div class="breadcrumb-virus-shape breadcrumb-shape-3">
+                    <img src="assets/img/mini-white-shape.png" alt="">
+                </div>
+                <div class="breadcrumb-virus-shape breadcrumb-shape-4">
+                    <img src="assets/img/mini-white-shape.png" alt="">
+                </div>
+            </section>
+            <!-- Breadcrumb Area End -->
+
+            <!-- MAP Area Start -->
+          <div class="blog-page-wrapper section-padding">
+              <div id="allmap" style="width: 100%;height: 500px;"></div>
+            </div>
+            <!-- MAP Area End -->
+
+            <!-- CTA Area Start -->
+            <div class="cta-wrapper section-padding purple-bg">
+                <h4 class="banner-subtitle" style="color:white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周边疫情</h4>
+                <div id="details"></div>
+                <!--<div class="blog-content" id="details">
+                    <h5 class="blog-date-wrap">
+                        <span class="date">22.04.2020 </span>
+                        <a href="blog.html" class="blog-tag">COVID-19</a>
+                    </h5>
+                    <h4 class="blog-title">Incubation Period (how long it
+                        takes symptoms to appear.</h4>
+
+                    <a href="blog.html" class="blog-read-more">Read More</a>
+                    <div class="blog-shape-bottom">
+                        <img src="assets/img/grey-virus-shape.png" alt="">
+                    </div>
+                </div>-->
+            </div>
+            <!-- CTA Area End -->
+        </main>
+
+        <footer class="footer-area section-padding">
+            <div class="footer-virus-shape footer-virus-shape-1">
+                <img src="assets/img/purple-virus-shape.png" alt="">
+            </div>
+            <div class="footer-virus-shape footer-virus-shape-2">
+                <img src="assets/img/purple-virus-shape.png" alt="">
+            </div>
+			<div class="row justify-content-center">
+			    <div class="col-xl-12 col-lg-12">
+			        <div class="section-title text-center semi-blue-section-title">
+			            <h5 class="section-single-subtitle">纠错上报</h5>
+			        </div>
+			    </div>
+			</div>
+           <div class="contact-form-inner">
+               <div class="row">
+                   <div class="col-xl-6 col-lg-6 col-md-6">
+                       <input type="text" name="myname" placeholder="姓名">
+                   </div>
+                   <div class="col-xl-6 col-lg-6 col-md-6">
+                       <input type="email" name="mymail" placeholder="电子邮箱">
+                   </div>
+                   <div class="col-xl-6 col-lg-6 col-md-6">
+                       <input type="text" name="cell" placeholder="联系电话">
+                   </div>
+                   <div class="col-xl-6 col-lg-6 col-md-6">
+                       <input type="text" name="mysub" placeholder="主题">
+                   </div>
+                   <div class="col-xl-12 col-lg-12 col-md-12">
+                       <textarea name="message" cols="30" rows="10" placeholder="留言"></textarea>
+                   </div>
+                   <div class="col-xl-12 text-center">
+                       <button href="#" class="common-btn btn common-hover-3" onclick="alert('提交成功，我们会尽快核对信息进行修改，感谢您的贡献！')" >发送信息</button>
+                   </div>
+               </div>
+           </div>
+        </footer>
+
+        <div class="site-copyright-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="copyright-text">
+                            <h6>全民抗疫 | 开发团队: <a target="_blank" href="#" class="copyright-anchor">糖葫芦香锅烧烤串串香</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="site-copyright-text text-right"> 
+                            <h6> &copy; 2020 Google Girl Hackathon</br> | All Right Reserved</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="search-modal"
+            aria-hidden="true">
+            <div class="modal-dialog " role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="modal-search">
+                            <form action="index.html">
+                                <input type="text" name="text" placeholder="Search here...">
+                                <button><i class="fas fa-search" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--地图-->
+        <script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");
+    //var point = new BMap.Point(108.95,34.27);
+    //map.centerAndZoom(point,15);
+
+    var geolocation = new BMap.Geolocation();
+    geolocation.getCurrentPosition(function(r){console.log(r.point)//定位经纬度
+        if(this.getStatus() == BMAP_STATUS_SUCCESS){
+            map.centerAndZoom(r.point,15);
+            //var mk = new BMap.Marker(r.point);
+            //map.addOverlay(mk);//标出所在地
+
+	        var myIcon = new BMap.Icon("assets/img/1.png", new BMap.Size(28,25));
+	        var marker2 = new BMap.Marker(r.point,{icon:myIcon});  // 创建标注
+	        map.addOverlay(marker2);              // 将标注添加到地图中
+            map.panTo(r.point);//地图中心移动
+            map.enableScrollWheelZoom(true);
+            //alert('您的位置：'+r.point.lng+','+r.point.lat);
+            //定义表示1公里范围的小圆
+            var circle = new BMap.Circle(r.point,1000,{
+                    fillColor:"blue",
+                    strokeWeight: 1 ,
+                    fillColor:'#4180DF',
+                    fillOpacity: 0.3,
+                    strokeOpacity: 0.3});
+            map.addOverlay(circle);
+
+            var point = new BMap.Point(r.point.lng,r.point.lat);//用所定位的经纬度查找所在地省市街道等信息
+            var gc = new BMap.Geocoder();//地址解析
+            gc.getLocation(point, function(rs){
+               console.log(rs);
+               var cityName = rs.addressComponents.city;
+               console.log(cityName);
+            //   alert(rs.address);//弹出所在地址
+
+                $.ajax({
+	 		type: "POST",
+			url : "http://localhost:8080/city/getsociety",
+			data : {"cityName":cityName,
+			        "longitude":r.point.lng,
+			        "latitude":r.point.lat},
+			datatype:'json',//返回格式
+			success : function(data){
+				 emp = eval("("+data+")");//将JSON格式的字符串转成JSON
+				 emp.sort(function(a,b){
+			        return a.dis - b.dis
+		            });
+                    $.each(emp, function(i, result) {
+                        console.log(result);
+                        console.log(result.society);
+                        //标注病例
+                        var point = new BMap.Point(result.longitude,result.latitude);
+                        var marker = new BMap.Marker(point);
+	                    map.addOverlay(marker);
+	                    //显示病例详细信息
+	                    if(result.day >= 14){
+	                    var htmlstr = '<div class="blog-content" id="details"><h5 class="blog-date-wrap">';
+	                    htmlstr += '<span class="date">'+result.society+'</span>';
+                        htmlstr += '<span class="blog-tag">此地距离发现已过去'+result.day+'天</span>';
+                        htmlstr += '<span class="blog-tag" style="float: right;text-align: right;">'+result.dis+'km</h5>';
+                        htmlstr += '<h4 class="blog-title">'+result.address+'</h4>';
+                        htmlstr += '<span class="blog-read-more">本地目前安全，请您注意在公共场合佩戴口罩</span><div class="blog-shape-bottom"><img src="assets/img/grey-virus-shape.png" alt=""> </div></div>';
+                        $('#details').append(htmlstr);
+                        }
+                        else{
+                        var htmlstr = '<div class="blog-content" id="details"><h5 class="blog-date-wrap">';
+	                    htmlstr += '<span class="date">'+result.society+'</span>';
+                        htmlstr += '<span class="blog-tag">此地距离发现已过去'+result.day+'天</span>';
+                        htmlstr += '<span class="blog-tag" style="float: right;text-align: right;">'+result.dis+'km</h5>';
+                        htmlstr += '<h4 class="blog-title">'+result.address+'</h4>';
+                        htmlstr += '<span class="blog-read-more">本地目前可能有感染风险，请您注意在公共场合佩戴口罩</span><div class="blog-shape-bottom"><img src="assets/img/grey-virus-shape.png" alt=""> </div></div>';
+                        $('#details').append(htmlstr);
+                        }
+                        });
+
+				},
+			error:function(e){
+			    alert("error");
+			    }
+			});
+
+            });
+        }else {
+            alert('failed'+this.getStatus());
+        }
+    },{enableHighAccuracy: true})
+    
+        </script>
+		<!-- jQuery JS -->
+        <script src="./assets/js/jquery-1.12.4.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="./assets/js/popper.min.js"></script>
+    
+        <!-- Boostrap JS -->
+        <script src="./assets/js/bootstrap.min.js"></script>
+    
+        <!-- Owl-Carousel JS -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+    
+        <!-- Meanmenu JS -->
+        <script src="./assets/js/jquery.meanmenu.js"></script>
+    
+        <!-- Wow JS -->
+        <script src="./assets/js/wow.min.js"></script>
+    
+        <!-- ScrollUp JS -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+    
+        <!-- Magnific-Popup JS -->
+        <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    
+        <!-- Theme-Main JS -->
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

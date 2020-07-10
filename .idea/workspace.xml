@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5aaaa0fe-ff25-4d19-b0f7-ba50fdf54ef0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dzLYIgu05YV1En5IX6mkqPKmFX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thlxgskccx.service" />
+      <recent name="com.thlxgskccx.dao" />
+      <recent name="com.thlxgskccx.service.mapper" />
+      <recent name="com.thlxgskccx.model" />
+      <recent name="com.thlxgskccx.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\竞赛\2020-Google Hacthon\code\cofighting2\cofighting3\src\main\resources\static" />
+      <recent name="D:\竞赛\2020-Google Hacthon\code\cofighting2\cofighting3\src\main\resources\static\assets\js" />
+      <recent name="D:\竞赛\2020-Google Hacthon\code\cofighting2\cofighting3\src\main\resources\static\login\img" />
+      <recent name="D:\竞赛\2020-Google Hacthon\code\cofighting2\cofighting3\src\main\resources\static\assets\img" />
+      <recent name="D:\竞赛\2020-Google Hacthon\code\cofighting2\cofighting3\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CofightingApplication">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/static/assets/js/index.js" working-dir="$PROJECT_DIR$/src/main/resources/static/assets/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="translate-api.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/static/assets/js/translate-api.js" working-dir="$PROJECT_DIR$/src/main/resources/static/assets/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="CofightingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cofighting3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thlxgskccx.CofightingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.translate-api.js" />
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\amyis\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5aaaa0fe-ff25-4d19-b0f7-ba50fdf54ef0" name="Default Changelist" comment="" />
+      <created>1593423021004</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593423021004</updated>
+      <workItem from="1593423022237" duration="39000" />
+      <workItem from="1593423273676" duration="5344000" />
+      <workItem from="1593735976785" duration="5020000" />
+      <workItem from="1593745778203" duration="10171000" />
+      <workItem from="1593822374414" duration="1758000" />
+      <workItem from="1593916260759" duration="22087000" />
+      <workItem from="1593957389250" duration="3868000" />
+      <workItem from="1593990842864" duration="6472000" />
+      <workItem from="1593998178754" duration="6737000" />
+      <workItem from="1594022434737" duration="100000" />
+      <workItem from="1594022565994" duration="339000" />
+      <workItem from="1594023134262" duration="23000" />
+      <workItem from="1594023254669" duration="4274000" />
+      <workItem from="1594107903879" duration="5281000" />
+      <workItem from="1594128635330" duration="3484000" />
+      <workItem from="1594174746498" duration="12652000" />
+      <workItem from="1594258525472" duration="8605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594022902800">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1594022902800" />
+    <state x="771" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1593995709819">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="771" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1593995709819" />
+    <state x="421" y="119" key="FileChooserDialogImpl" timestamp="1594341295837">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="119" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1594341295837" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1594300011132">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1594300011132" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1594300011131">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1594300011131" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1594300011131">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1594300011131" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1594300011132">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1594300011132" />
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom" timestamp="1594300011132">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1594300011132" />
+    <state width="1237" height="2" key="GridCell.Tab.1.center" timestamp="1594300011132">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1594300011132" />
+    <state width="1237" height="2" key="GridCell.Tab.1.left" timestamp="1594300011132">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1594300011132" />
+    <state width="1237" height="2" key="GridCell.Tab.1.right" timestamp="1594300011132">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1594300011132" />
+    <state width="1237" height="123" key="GridCell.Tab.2.bottom" timestamp="1594258765892">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="123" key="GridCell.Tab.2.bottom/0.0.1280.720@0.0.1280.720" timestamp="1594258765892" />
+    <state width="1237" height="123" key="GridCell.Tab.2.center" timestamp="1594258765892">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="123" key="GridCell.Tab.2.center/0.0.1280.720@0.0.1280.720" timestamp="1594258765892" />
+    <state width="1237" height="123" key="GridCell.Tab.2.left" timestamp="1594258765892">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="123" key="GridCell.Tab.2.left/0.0.1280.720@0.0.1280.720" timestamp="1594258765892" />
+    <state width="1237" height="123" key="GridCell.Tab.2.right" timestamp="1594258765892">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="123" key="GridCell.Tab.2.right/0.0.1280.720@0.0.1280.720" timestamp="1594258765892" />
+    <state x="171" y="19" key="Maven.ArtifactSearchDialog" timestamp="1593939243571">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="171" y="19" key="Maven.ArtifactSearchDialog/0.0.1280.720@0.0.1280.720" timestamp="1593939243571" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1594266049918">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1594266049918" />
+    <state x="93" y="93" width="1095" height="535" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1594175082127">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="93" y="93" width="1095" height="535" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1594175082127" />
+    <state x="337" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1594341268039">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="337" y="189" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1594341268039" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1593423473063">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1593423473063" />
+  </component>
+</project>
