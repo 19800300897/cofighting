@@ -12,8 +12,6 @@ com.thlxgskccx为java包，里面为各层业务逻辑，application.yml为配�
 ### 作者列表  
 Cathlin Wang  
 Rig Sun  
-Yu Tian  
+Amy Tian  
 ### 联系方式  
 Email:amyisafish@foxmail.com
-
-
